@@ -15,7 +15,7 @@ jobs:
       - name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v1
         with:
-          credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
+          credentials_json: ${{ secrets.LAVANYA_KOPPISETTI }}
 
       # Add your deployment steps here.  For example:
       - name: Deploy to Cloud Run
